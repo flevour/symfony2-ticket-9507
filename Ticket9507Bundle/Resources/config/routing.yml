@@ -1,0 +1,11 @@
+#homepage:
+#    pattern:  /
+#    defaults: { _controller: TicketsTicket9507Bundle:Default:index }
+ticket_9507_index:
+  pattern: /ticket/9507/set/{cookie}
+  defaults: { _controller: TicketsTicket9507Bundle:Default:index }
+
+ticket_9507_landing:
+  pattern: /ticket/9507/landing
+  defaults: { _controller: TicketsTicket9507Bundle:Default:landing }
+
